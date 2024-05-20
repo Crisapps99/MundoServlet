@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+
+<div class="form">
+    <div class="title">
+        <label>Registro Servlet</label>
+
+    </div>
+    <form action="DatosServlet" method="post" id="formulario">
+        <div class="Box">
+            <br><label>Nombres Completos</label>
+            <input type="text" name="nombre"><br>
+        </div>
+        <div class="Box">
+            <label>Apellidos Completos</label>
+            <input type="text" name="apellido"><br>
+        </div>
+        <div class="Box">
+            <label>Edad</label>
+            <input type="text" name="Edad"/><br>
+        </div>
+        <div class="curso">
+            <br><label>Seleccione el Curso</label>
+            <br>
+            <select name="Nivel">
+                <option value="Primer Nivel">Primer Nivel </option>
+                <option value="Segundo Nivel">Segundo Nivel </option>
+                <option value="Tercer Nivel">Tecer Nivel</option>
+                <option value="Cuarto Nivel">Cuarto Nivel</option>
+                <option value="Quinto Nivel">Quinto Nivel</option>
+            </select><br>
+        </div>
+        <br><label>Gnenero:</label>
+        <div class="categoria">
+
+                <input type="radio"  name="genero" value="Hombre"/>Hombre
+                <input type="radio" name="genero" value="Mujer" />Mujer
+
+        </div>
+        <div class="lenguaje">
+            <br><label>Lenguajes de Pogramacion:</label>
+            <div class="categoria">
+
+                <input type="radio" name="lenguaje" value="Java"/>Java
+                <input type="radio" name="lenguaje" value="php"/>PHP
+                <input type="radio" name="lenguaje" value="C#"/>C#
+                <input type="radio" name="lenguaje" value="python"/>Python
+                <br>
+            </div>
+        </div>
+        <div class="descripcion">
+            <br><label>Descripcion:</label>
+            <br>
+            <textarea class="des" name="texto" ></textarea>
+            <br>
+        </div>
+        <button type="button" onclick="limpiar()" class="btn">limpiar </button>
+        <input type="submit" value="Enviar" class="btn"/>
+
+
+
+    </form>
+</div>
+<script>
+    function limpiar(){
+        formulario.reset();
+    }
+</script>
+
+</body>
+</html>
