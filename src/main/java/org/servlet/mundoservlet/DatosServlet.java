@@ -2,7 +2,7 @@ package org.servlet.mundoservlet;
 /*
  * Nombre del programador: Cristian Sandoval
  * Materia: Programacion 2
- * Fecha: 16/05/2024
+ * Fecha: 17/05/2024
  * Detalle: esta clase es el que almacena los datos enviados desde mi html e imprime todos los datos
  * Versión:
  ***/

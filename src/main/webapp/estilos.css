@@ -1,8 +1,8 @@
 /*
  * Nombre del programador: Cristian Sandoval
  * Materia: Programacion 2
- * Fecha: 16/05/2024
- * Detalle: es unaa clase de estilos para poner colores y modificacioens ala pagina principal
+ * Fecha: 17/05/2024
+ * Detalle: esta clase es el que almacena los estilos de la pagina html y de servlet
  * Versión:
  ***/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -13,6 +13,7 @@
     font-family: 'Poppins',sans-serif;
 
 }
+
 body{
     display: flex;
     justify-content: center;
